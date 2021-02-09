@@ -1,0 +1,39 @@
+1. Create a folder in your favourite location.
+2. Access the location of folder through command prompt.
+3. Give the command to empty the git repository.
+
+	git init
+
+4. Now you can see the hidden file in the folder you created.
+5. Then create a new file in the same folder you created.
+6. Next add the file into the git.
+
+	git add filename.exe
+
+7. If you are adding more than one file you can use the following command:
+	
+	git add .
+
+8. Next commit the files which are added.
+	
+	git commit -m "Message in quotes"
+
+9. In case you want to see the status use the following command:
+	
+	git status
+
+10. If there is any file which you created by missed to add in git then this status checking helps you to find out those. Once you find do not forget to add and commit using the same command.
+11. You can add multiple files to the same folder using the same procedure as mentioned.
+12. If you want to restore any file use the command as:
+
+	git restore filename.exe
+
+13. Once you are done you can connect to server repository.
+14. First add remote repository to local repository.
+
+	git remote add origin
+
+15. Push the file to server.
+
+	git push origin master
+ 
