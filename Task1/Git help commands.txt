@@ -35,5 +35,5 @@
 
 15. Push the file to server.
 
-	git push origin master
+	git push -u origin master
  
